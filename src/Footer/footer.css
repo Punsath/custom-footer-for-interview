@@ -1,0 +1,83 @@
+/* footer.css */
+.all {
+  background-color: #001431 !important;
+ 
+}
+
+.all h5 {
+  font-size: 13px; /* Set font size */
+  margin-bottom: 10px; /* Add margin bottom for spacing */
+  color: white !important;
+  font-weight: 400 !important;
+}
+
+.all p,
+.all .unhide {
+  color: rgb(173, 172, 172) !important;
+  font-size: 13px !important;
+}
+.all .unhide:hover {
+  color: white !important;
+}
+
+.linkedin-text {
+  margin-left: 100px !important;
+}
+
+.all p {
+  margin-bottom: 5px; /* Adjust the margin bottom to reduce space */
+}
+.custom-button {
+  color: white !important;
+  background-color: #001431 !important;
+  border: none !important;
+  position: relative !important;
+  font-size: 13px !important;
+  text-align: left !important;
+  padding: 15px 0px !important; /* Adjust padding for button size */
+
+}
+
+.custom-button::after {
+  content: '' !important;
+  position: absolute !important;
+  bottom: -1px !important; 
+  left: 0 !important;
+  width: 100% !important;
+  height: 1px !important;
+  background-color: white !important;
+}
+
+.icon {
+  width: 20px !important;
+  height: 20px !important;
+  margin-left: 100px !important; /* Adjust the margin as needed */
+}
+.icon-img {
+  width: 33px !important; /* Adjust the width as needed */
+  height: auto !important; /* Maintain aspect ratio */
+  float: right; /* Float the image to the right */
+}
+.align-left {
+  float: left !important; /* Align the image to the left */
+  clear: left !important; /* Clear any floating elements above it */
+  width: 180px !important; /* Adjust the width as needed */
+  height: auto !important; /* Maintain aspect ratio */
+  float: left !important; /* Float the image to the right */
+}
+
+#hide {
+  color: rgb(12, 12, 53) !important;
+  font-size: 13px !important;
+  pointer-events: none;
+}
+.all .custom-link {
+  font-size: 13px !important;
+  text-decoration: none !important;
+  color: rgb(173, 172, 172) !important;
+  pointer-events: none;
+}
+
+
+
+
